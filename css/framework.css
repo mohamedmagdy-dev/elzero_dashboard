@@ -1,0 +1,699 @@
+/* Width */
+.w-40 {
+  width: 40px;
+}
+
+.w-48 {
+  width: 48px;
+}
+
+.w-60 {
+  width: 60px;
+}
+
+.w-64 {
+  width: 64px;
+}
+
+.w-100 {
+  width: 100px;
+}
+
+.w-120 {
+  width: 120px;
+}
+
+.w-200 {
+  width: 200px;
+}
+
+.w-100p {
+  width: 100%;
+}
+/* Width */
+
+/* Padding & Margin */
+.p-5 {
+  padding: 5px;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+.p-20 {
+  padding: 20px;
+}
+
+.p-40 {
+  padding: 40px;
+}
+
+.p-50 {
+  padding: 50px;
+}
+
+.pt-10 {
+  padding-top: 10px;
+}
+
+.pt-15 {
+  padding-top: 15px;
+}
+
+.pt-20 {
+  padding-top: 20px;
+}
+
+.pr-10 {
+  padding-right: 10px;
+}
+
+.pl-10 {
+  padding-left: 10px;
+}
+
+.pl-30 {
+  padding-left: 30px;
+}
+
+.pl-40 {
+  padding-left: 40px;
+}
+
+.pb-10 {
+  padding-bottom: 10px;
+}
+
+.pb-15 {
+  padding-bottom: 15px;
+}
+
+.pb-20 {
+  padding-bottom: 20px;
+}
+
+.pb-30 {
+  padding-bottom: 30px;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.mt-5 {
+  margin-top: 5px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-15 {
+  margin-top: 15px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.mr-5 {
+  margin-right: 5px;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.mr-15 {
+  margin-right: 15px;
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
+
+.mb-5 {
+  margin-bottom: 5px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-25 {
+  margin-bottom: 25px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.ml-10 {
+  margin-left: 10px;
+}
+
+.ml-15 {
+  margin-left: 15px;
+}
+
+.ml-40 {
+  margin-left: 40px;
+}
+
+.ml-20- {
+  margin-left: -20px;
+}
+
+/* Padding & Margin */
+
+/* Text Colors & background-color */
+
+.c-black {
+  color: black;
+}
+
+.c-white {
+  color: white;
+}
+
+.c-gray {
+  color: #888;
+}
+
+.c-orange {
+  color: #f59e0b;
+}
+
+.c-blue {
+  color: #0075ff;
+}
+
+.c-green {
+  color: #22c55e;
+}
+
+.c-red {
+  color: #f44336;
+}
+
+.bg-eee {
+  background-color: #eee;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-f1 {
+  background-color: #f1f5f9;
+}
+
+.bg-f6 {
+  background-color: #f6f6f6;
+}
+
+.bg-orange {
+  background-color: #f59e0b;
+}
+
+.bg-blue {
+  background-color: #0075ff;
+}
+
+.bg-green {
+  background-color: #22c55e;
+}
+
+.bg-red {
+  background-color: #f44336;
+}
+/* Text Colors & background-color */
+
+/* Display */
+.d-block {
+  display: block;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.fd-column {
+  flex-direction: column;
+}
+
+.j-evenly {
+  justify-content: space-evenly;
+}
+
+.j-between {
+  justify-content: space-between;
+}
+
+.j-end {
+  justify-content: flex-end;
+}
+
+.ai-end {
+  align-items: flex-end;
+}
+
+.j-center {
+  justify-content: center;
+}
+
+.ai-center {
+  align-items: center;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.center-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Global display grid */
+.d-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+}
+
+@media (max-width: 767px) {
+  .d-grid {
+    grid-template-columns: minmax(100px, 1fr);
+    gap: 10px;
+  }
+}
+/* Global display grid */
+
+/* Small Width For Display grid */
+.small-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+/* Small Width For Display grid */
+
+/* mid Width For Display grid */
+.mid-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+/* mid Width For Display grid */
+
+.gap-20 {
+  gap: 20px;
+}
+
+.p-rel {
+  position: relative;
+}
+
+.p-abs {
+  position: absolute;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  right: 0;
+}
+
+/* Display */
+
+/* Text  */
+.tt-c {
+  text-transform: capitalize;
+}
+
+.ta-c {
+  text-align: center;
+}
+
+.ta-r {
+  text-align: right;
+}
+
+.ta-l {
+  text-align: left;
+}
+
+.weight-n {
+  font-weight: normal;
+}
+
+.weight-b {
+  font-weight: bold;
+}
+
+.wspace-nowrap {
+  white-space: nowrap;
+}
+
+.textDeco-lineThrough {
+  text-decoration: line-through;
+}
+/* Text  */
+
+/* border-radius */
+.rad-6 {
+  border-radius: 6px;
+}
+
+.rad-10 {
+  border-radius: 10px;
+}
+
+.rad-15 {
+  border-radius: 15px;
+}
+
+.rad-30 {
+  border-radius: 30px;
+}
+
+.rad-50 {
+  border-radius: 50%;
+}
+/* border-radius */
+
+/* opacity */
+.opacity-3 {
+  opacity: 0.3;
+}
+/* opacity */
+
+/* cursor */
+.cursor-p {
+  cursor: pointer;
+}
+/* cursor */
+
+/* transition duration */
+.duration-3 {
+  transition: 0.3s;
+}
+
+.duration-5 {
+  transition: 0.5s;
+}
+
+.duration-1 {
+  transition: 1s;
+}
+/* transition duration */
+
+/* Font size*/
+.fs-13 {
+  font-size: 13px;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.fs-25 {
+  font-size: 25px;
+}
+
+.fs-30 {
+  font-size: 30px;
+}
+
+.fs-35 {
+  font-size: 35px;
+}
+
+.fs-40 {
+  font-size: 40px;
+}
+/* Font size*/
+
+/* Components */
+
+/* Buttons */
+
+/* Btn1 */
+.btn {
+  width: 60px !important;
+  padding-inline: 10px;
+  border-radius: 7px;
+  height: 30px;
+  color: white;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  transition: background-color 0.5s;
+}
+
+.btn.blue {
+  background-color: #0075ff;
+}
+
+.btn.blue:hover {
+  background-color: #0d69d5;
+}
+
+.btn.yellow {
+  background-color: #f59e0b;
+}
+
+.btn.yellow:hover {
+  background-color: #d1880a;
+}
+
+.btn.green {
+  background-color: #22c55e;
+}
+
+.btn.green:hover {
+  background-color: #22c55e;
+}
+
+.btn.red {
+  background-color: #f44336;
+}
+
+.btn.red:hover {
+  background-color: #f44336;
+}
+/* Btn1 */
+
+/* Btn2 */
+.btn2 {
+  width: fit-content;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-transform: capitalize;
+  white-space: nowrap;
+}
+/* Btn2 */
+
+/* Btn3 */
+.btn3 {
+  display: inline-block;
+  text-transform: capitalize;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+/* Btn3 */
+
+/* Custom Checkbox Like wifi icon */
+
+label .custom-input-checkbox {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+label .custom-checkbox {
+  width: 78px;
+  height: 32px;
+  background-color: #aaa;
+  border-radius: 15px;
+  transition: 0.3s;
+  position: relative;
+  cursor: pointer;
+}
+
+label .custom-checkbox::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f00d";
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  color: #aaa;
+  background-color: white;
+  border-radius: 50%;
+  top: 4px;
+  left: 4px;
+  transition: 0.3s;
+}
+
+label .custom-input-checkbox:checked + .custom-checkbox {
+  background-color: #0075ff;
+}
+
+label .custom-input-checkbox:checked + .custom-checkbox::before {
+  content: "\f00c";
+  transform: rotate(360deg);
+  left: 50px;
+  color: #0075ff;
+}
+/* Custom Checkbox Like wifi icon */
+
+/* Custom checkbox Pop up and rotated */
+.pup-checkbox {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.pup-checkbox + label {
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.pup-checkbox + label::before {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border: 2px solid #aaa;
+  border-radius: 3px;
+  top: 50%;
+  transform: translate(-35px, -50%);
+  transition: 0.3s;
+}
+
+.pup-checkbox + label:hover::before {
+  border-color: #0075ff;
+}
+
+.pup-checkbox:checked + label::before {
+  border: 2px solid #0075ff;
+}
+
+.pup-checkbox + label::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f00c";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  font-size: 14px;
+  background-color: #0075ff;
+  left: 0;
+  top: 50%;
+  transform: translate(0px, -50%) scale(0);
+  transition: 0.3s;
+  color: white;
+}
+
+.pup-checkbox:checked + label::after {
+  transform: translate(0px, -50%) scale(1) rotate(360deg);
+}
+/* Custom checkbox Pop up and rotated */
+
+/* Custom radio Pop up and rotated */
+
+.pup-radio {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.pup-radio + label {
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.pup-radio + label::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #aaa;
+  border-radius: 50%;
+  top: 50%;
+  transform: translate(-35px, -50%);
+  transition: 0.3s;
+}
+
+.pup-radio:checked + label::before {
+  border: 2px solid #0075ff;
+}
+
+.pup-radio + label::after {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: #0075ff;
+  left: 0%;
+  top: 50%;
+  border-radius: 50%;
+  transform: translate(-30.5px, -50%) scale(0);
+  transition: 0.3s;
+  color: white;
+}
+
+.pup-radio:checked + label::after {
+  transform: translate(-30.5px, -50%) scale(1);
+}
+/* Custom radio Pop up and rotated */
+
+/* Buttons */
+/* Components */
